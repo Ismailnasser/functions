@@ -1,0 +1,72 @@
+/*
+  Project Name : Mathematical functions.
+  Version : 1.0.0
+  Author : Ismail Nasser.
+*/
+
+.title {
+  position: relative;
+  z-index: 9999999;
+  color: #44847e;
+  font-family: 'Cairo', sans-serif;
+  text-align: center
+}
+
+.title h2 {text-shadow: 0px 3px 10px #a0a0a0;display: inline}
+
+.functions {
+  position: relative;
+  z-index: 99999999;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 5em
+}
+
+.functions .heading {color: #009688 !important}
+
+.functions .heading h1 {font-size: 15em;position: relative}
+
+.functions .heading h1 .m_letter {display: inline-block;margin: -5px 0;font-size: 260px}
+
+.functions .brackets {margin-left: -50px;margin-right: 10px;font-size: 400px}
+
+.functions .f_row {margin-left: -74px;transform: rotateZ(45deg);margin-bottom: 70px !important}
+
+.functions .f_row .special {border: none !important}
+
+.functions .s_row {transform: rotateZ(-45deg);margin-right: -16px;margin-left: -535px}
+
+.functions .f_row,
+.functions .s_row {display: inline-block;height: 75px;margin-bottom: 71px}
+
+.functions .f_row .f,
+.functions .s_row .s {
+  width: 90px;
+  height: 75px;
+  float: left;
+  font-size: 15px;
+  color: #009688;
+  border: 1px solid #009688;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  margin: 0 2px;
+  font-weight: bold
+}
+
+.functions .f_row .short,
+.functions .s_row .short {padding-top: 10px}
+
+.functions .f_row .f.special_short,
+.functions .s_row .s.special_short {padding-top: 16px !important}
+
+.functions .f_row .f a,
+.functions .s_row .s a {color: #009688;cursor: pointer}
+
+/* Mobile Coordinate */
+
+.mobile .f_row,
+.mobile .s_row {transform: rotateZ(0)}
+
+.functions .block {position: absolute;top: 75px;left: 95px}

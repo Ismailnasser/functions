@@ -1,0 +1,87 @@
+.main_function {width: 100%}
+
+.main_function .heading h1 {font-size: 2em;font-weight: bold;text-shadow: 5px 4px 15px #dedede;margin-top: 3em;color: #00aa81}
+
+.main_function .back_to_home_page a,
+.main_function .back_to_home_page i {font-weight: bold}
+
+.main_function .back_to_home_page a {color: #00aa81}
+
+.main_function .back_to_home_page i {color: #00aa81}
+
+.main_function .logo {position: absolute;left: 35%;top: -25px;z-index: 9}
+
+.main_function .logo img {width: 50%}
+
+.main_function .image img {text-align: left;width: 90%;margin: 150px 0}
+
+.main_function .example img {width: 100%}
+
+.main_function .defenitions span,
+.main_function .example p {color: #00aa81}
+
+ .main_function .heading .marital-function {margin-top: 2em}
+
+/* Responsive For All Sub links ( If Reading The You Are Understand Easily )*/
+
+/* Heading */
+
+@media (min-width: 266px) and (max-width: 1199px) {
+  .main_function .heading h1 span {display: block}
+}
+
+/* Images */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main_function .image img {width: 100%}
+}
+
+@media (min-width: 266px) and (max-width: 767px) {
+  .main_function .image img {border-top: 2px solid #DDD;padding-top: 10px}
+}
+
+@media (min-width: 266px) and (max-width: 767px) {
+  .main_function .image img {margin: 0 !important;width: 70%}
+}
+
+@media (min-width: 266px) and (max-width: 527px) {
+  .main_function .i_f_e-2 img {
+    width: 70%
+  }
+}
+
+@media (min-width: 266px) and (max-width: 370px) {
+  .main_function .i_f_e-2 img {
+    width: 100%
+  }
+}
+
+@media (min-width: 266px) and (max-width: 370px) {
+  .main_function .i_f_e img,
+  .main_function .i_f_e-2 img {width: 70%;margin-bottom: 10px}
+}
+
+@media (min-width: 266px) and (max-width: 340px) {
+  .main_function .image img {width: 90%}
+}
+
+@media (min-width: 266px) and (max-width: 306px) {
+  .main_function .heading .constant_function {font-size: 1.8em}
+}
+
+@media (min-width: 266px) and (max-width: 300px) {
+  .main_function .defination_11 a {display: block}
+
+  .main_function .i_f_e img,
+  .main_function .i_f_e-2 img {width: 100%}
+}
+
+/* Titles */
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .main_function .defination_3 span {font-size: 15px}
+}
+
+@media (min-width: 266px) and (max-width: 767px) {
+   .main_function .heading .marital-function {margin-top: 3em}
+}
